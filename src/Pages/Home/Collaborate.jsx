@@ -14,7 +14,9 @@ const Collaborate = () => {
           <p className="font-bold text-[12px]">YOUR IDEA STARTS HERE</p>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 mt-4 p-3  lg:max-w-7xl mx-auto lg:mt-24">
+    
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 mt-4 p-3  lg:max-w-7xl  mx-auto   ">
+
         <div className="  p-6">
           <h1 className="text-2xl font-bold mb-6">Free forever</h1>
           <p className="opacity-75 text-lg text-justify  ">
