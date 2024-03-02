@@ -14,7 +14,7 @@ const Footer = () => {
     ]
 
     return (
-        <div className='bg-[#02033B] text-white px-24  py-16 flex   justify-center gap-8 md:gap-24  flex-wrap md:flex-nowrap'>
+        <div className='bg-[#02033B] text-white px-24  py-16 flex   justify-center gap-8 md:gap-24  flex-wrap md:flex-nowrap 32'>
             {/* left side */}
             <div>
                 <div className=' flex justify-between flex-wrap md:flex-nowrap gap-12 '>

@@ -26,7 +26,7 @@ const Home = () => {
                 subText={'In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are. '}
             >
             </SharedComponant>
-            
+
             <SharedComponant
                 image={image2}
                 mainText={'Connect your tools, close your tabs '}
@@ -35,15 +35,15 @@ const Home = () => {
             >
             </SharedComponant>
 
-<div>
-    <img src={img} className='w-full px-2 ' alt="" />
-</div>
+            <div>
+                <img src={img} className='w-full px-2 ' alt="" />
+            </div>
 
             <Work></Work>
             <Banner2></Banner2>
 
             <Teams></Teams>
-            
+
 
 
         </div>

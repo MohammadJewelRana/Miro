@@ -126,10 +126,10 @@ const Navbar = () => {
 
             <Link className="hover:text-blue-600 transition-all duration-300 opacity-100 text-[14px] :text-blue-600 transition-all duration-300 opacity-100 text-[14px] hover:bg-gray-300 hover:p-1 hover:rounded-lg">Contact Sales</Link>
           </div>
-          <Link className="hover:text-blue-600 transition-all duration-300 opacity-100 text-[14px] hover:bg-gray-300 hover:p-1 hover:rounded-lg">Login</Link>
+          <Link to='/login' className="hover:text-blue-600 transition-all duration-300 opacity-100 text-[14px] hover:bg-gray-300 hover:p-1 hover:rounded-lg">Login</Link>
 
 
-          <Link className="hidden lg:block">
+          <Link to='/registration' className="hidden lg:block ">
             <div className="flex">
               <div className="flex items-center gap-2 mx-auto bg-blue-600 py-2 text-white px-3 text--[12px] rounded-l-full rounded-r-full transition-all duration-300 hover:bg-blue-500 cursor-pointer">
                 <button className="opacity-100 text-[14px]">Sign up free </button>
@@ -148,7 +148,7 @@ const Navbar = () => {
               </div>
             </div>
           </Link>
-          <Link className="block lg:hidden">
+          <Link to='/registration' className="block lg:hidden">
             <a className="border text-[14px] px-4 py-2 bg-blue-600  text-white transition-all duration-300 hover:bg-blue-500 rounded-lg">SignUp</a>
           </Link>
 
