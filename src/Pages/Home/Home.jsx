@@ -7,6 +7,9 @@ import image1 from '../../assets/Others/hybridWork.png'
 import image2 from '../../assets/Others/integrations.png'
 import Teams from './Teams';
 import Work from './Work';
+import img from '../../assets/Others/section.png'
+import Banner from './Banner';
+import Banner2 from './Banner2';
 
 const Home = () => {
     return (
@@ -16,6 +19,7 @@ const Home = () => {
 
             <TrustedUser></TrustedUser>
             <Collaborate></Collaborate>
+            <Banner></Banner>
             <SharedComponant
                 image={image1}
                 mainText={'Work together, wherever you work'}
@@ -30,9 +34,16 @@ const Home = () => {
                 statePass={true}
             >
             </SharedComponant>
+
+<div>
+    <img src={img} className='w-full px-2 ' alt="" />
+</div>
+
             <Work></Work>
+            <Banner2></Banner2>
 
             <Teams></Teams>
+            
 
 
         </div>
