@@ -6,10 +6,11 @@ import SharedComponant from './SharedComponant';
 import image1 from '../../assets/Others/hybridWork.png'
 import image2 from '../../assets/Others/integrations.png'
 import Teams from './Teams';
+import Work from './Work';
 
 const Home = () => {
     return (
-        <div className='md:max-w-[80%] mx-auto'>
+        <div className='md:max-w-7xl mx-auto  z-10 pt-24'>
 
             <Header></Header>
 
@@ -29,6 +30,7 @@ const Home = () => {
                 statePass={true}
             >
             </SharedComponant>
+            <Work></Work>
 
             <Teams></Teams>
 
