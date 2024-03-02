@@ -5,6 +5,7 @@ import Collaborate from './Collaborate';
 import SharedComponant from './SharedComponant';
 import image1 from '../../assets/Others/hybridWork.png'
 import image2 from '../../assets/Others/integrations.png'
+import Teams from './Teams';
 
 const Home = () => {
     return (
@@ -28,6 +29,8 @@ const Home = () => {
                 statePass={true}
             >
             </SharedComponant>
+
+            <Teams></Teams>
 
 
         </div>

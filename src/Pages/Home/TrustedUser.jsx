@@ -10,7 +10,7 @@ const TrustedUser = () => {
     const imageArray = [TrustedUser1, TrustedUser2, TrustedUser3, TrustedUser4, TrustedUser5];
 
     return (
-        <div className=' my-24'>
+        <div className=' my-24 max-w-7xl mx-auto'>
 
             <h1 className='text-center text-gray-500 text-[18px] my-4'>Trusted By 45M+ Users</h1>
             <div className='flex items-center justify-around flex-wrap md:flex-nowrap gap-4  px-8 py-4'>
