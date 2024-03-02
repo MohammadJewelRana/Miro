@@ -6,8 +6,10 @@ const Navbar = () => {
   const {name }=useContext(AuthContext)
   console.log(name);
     return (
-        <div>
+        <div className='h-24 w-full'>
           header  
+
+
         </div>
     );
 };
