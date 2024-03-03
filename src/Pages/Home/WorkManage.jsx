@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import useWork from "../../Hooks/useWork";
 import Loading from "../../Shared/Loading";
 import Card from "./Card";
+ 
+
 
 const WorkManage = () => {
   const [workAll, isLoading] = useWork();
@@ -11,10 +13,9 @@ const WorkManage = () => {
   const brainstromingData = workAll.filter(
     (item) => item.title === "Brainstorming"
   );
-
-
+ 
   return (
-    <div className="md:max-w-7xl ">
+    <div className="md:max-w-7xl " >   
       <Card
         heading={"Built for the way you work"}
         firstData={brainstromingData}

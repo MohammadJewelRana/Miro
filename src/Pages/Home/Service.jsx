@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import useService from "../../Hooks/useService";
 import Loading from "../../Shared/Loading";
 import Card from "./Card";
+ 
 
 const Service = () => {
+ 
   const [serviceAll, serviceLoading] = useService();
   if (serviceLoading) {
     return <Loading></Loading>;
@@ -14,7 +16,7 @@ const Service = () => {
    // console.log(ux);
 
   return (
-    <div>
+    <div   >
       <Card
         heading={"Built for all kinds of teams"}
         firstData={ux}

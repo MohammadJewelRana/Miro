@@ -37,7 +37,9 @@ const Teams = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-12   mt-16 px-6'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-12   mt-16 px-6'
+            
+            >
                 {
                     data.map(item =>
                         <>

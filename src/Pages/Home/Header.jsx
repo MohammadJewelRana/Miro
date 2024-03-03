@@ -11,6 +11,7 @@ import { FaArrowRight, FaBeer, FaStar, FaStarHalf } from 'react-icons/fa';
 const Header = () => {
 
     const icons = [HeaderICon1, HeaderICon2, HeaderICon3];
+  
     useEffect(() => {
         AOS.init();
     }, [])
