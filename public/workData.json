@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "1",
+        "title": "Brainstorming",
+        "details": "Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on.",
+        "image": "url_to_brainstorming_image.jpg",
+        "path": "brainstorming"
+    },
+    {
+        "_id": "2",
+        "title": "Diagramming",
+        "details": "Create diagrams to represent information visually, including flowcharts, UML diagrams, network diagrams, and more.",
+        "image": "url_to_diagramming_image.jpg",
+        "path": "diagramming"
+    },
+    {
+        "_id": "3",
+        "title": "Meetings & Workspace",
+        "details": "Create collaborative spaces where teams can meet, discuss ideas, share documents, and work together efficiently.",
+        "image": "url_to_meetings_workspace_image.jpg",
+        "path": "meetings"
+    },
+    {
+        "_id": "4",
+        "title": "Scrum Events",
+        "details": "Organize and manage your scrum events, including daily stand-ups, sprint planning, reviews, and retrospectives.",
+        "image": "url_to_scrum_events_image.jpg",
+        "path": "scrum"
+    },
+    {
+        "_id": "5",
+        "title": "Mapping",
+        "details": "Visualize concepts, relationships, processes, and data using various mapping techniques such as mind mapping, concept mapping, and flowcharts.",
+        "image": "url_to_mapping_image.jpg",
+        "path": "mapping"
+    },
+    {
+        "_id": "6",
+        "title": "Research & Design",
+        "details": "Conduct research, gather insights, and create designs collaboratively, integrating feedback and iterating on solutions.",
+        "image": "url_to_research_design_image.jpg",
+        "path": "research"
+    },
+    {
+        "_id": "7",
+        "title": "Strategic Planning",
+        "details": "Plan and strategize for the future, set goals, allocate resources, and track progress towards achieving objectives.",
+        "image": "url_to_strategic_planning_image.jpg",
+        "path": "strategic"
+    }
+ 
+]

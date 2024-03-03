@@ -12,7 +12,7 @@ const Registration = () => {
 
   // console.log(image.name);
 
-  const navigate = useNavigate();
+ 
 
   const handleImageClick = () => {
     inputRef.current.click();

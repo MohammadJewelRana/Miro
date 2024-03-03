@@ -1,0 +1,80 @@
+[
+    {
+        "id": "1",
+        "title": "ux & design",
+        "path": "ux",
+        "details": [
+            "Build low-fi wireframes",
+            "Involve stakeholders in the design process",
+            "Run engaging design workshops",
+            "Conduct user research"
+        ],
+        "image": "url_to_ux_design_image.jpg"
+    },
+    {
+        "id": "2",
+        "title": "marketing",
+        "path": "marketing",
+        "details": [
+            "Create compelling ad campaigns",
+            "Analyze market trends",
+            "Develop marketing strategies"
+        ],
+        "image": "url_to_marketing_image.jpg"
+    },
+    {
+        "id": "3",
+        "title": "product management",
+        "path": "product",
+        "details": [
+            "Define product roadmap",
+            "Gather customer feedback",
+            "Prioritize feature development"
+        ],
+        "image": "url_to_product_management_image.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Engineering",
+        "path": "engineering",
+        "details": [
+            "Write clean and efficient code",
+            "Conduct code reviews",
+            "Collaborate with cross-functional teams"
+        ],
+        "image": "url_to_engineering_image.jpg"
+    },
+    {
+        "id": "5",
+        "title": "consultants",
+        "path": "consultants",
+        "details": [
+            "Provide expert advice to clients",
+            "Conduct business analysis",
+            "Develop customized solutions"
+        ],
+        "image": "url_to_consultants_image.jpg"
+    },
+    {
+        "id": "6",
+        "title": "agile coaches",
+        "path": "agile",
+        "details": [
+            "Facilitate agile ceremonies",
+            "Coach teams on agile principles",
+            "Implement agile methodologies"
+        ],
+        "image": "url_to_agile_coaches_image.jpg"
+    },
+    {
+        "id": "7",
+        "title": "sales",
+        "path": "sales",
+        "details": [
+            "Generate leads",
+            "Negotiate contracts",
+            "Build relationships with clients"
+        ],
+        "image": "url_to_sales_image.jpg"
+    }
+]

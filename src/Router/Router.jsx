@@ -9,6 +9,7 @@ import Registration from '../Pages/Login_Reg/Registration.jsx';
     {
         path:'/',
         element:<HomeLayout></HomeLayout>,
+        // errorElement:<p>Loading...</p>,
         children:[
             {
                 path:'/',

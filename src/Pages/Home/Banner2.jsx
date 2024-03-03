@@ -5,7 +5,7 @@ import banner from '../../assets/banner/banner2.jpg'
 
 const Banner2 = () => {
     return (
-        <div>
+        <div className=''>
             <div className="relative   bg-cover bg-center h-96 md:h-64 flex items-center justify-center ">
                 <div
                     className="absolute inset-0 bg-cover bg-center"

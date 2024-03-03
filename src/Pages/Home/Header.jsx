@@ -17,7 +17,7 @@ const Header = () => {
 
 
     return (
-        <div className='flex justify-center items-center   gap-8 flex-wrap-reverse px-6 md:p-3 md:flex-nowrap   '>
+        <div className='flex justify-center items-center   gap-8 flex-wrap-reverse px-6  md:p-3 md:flex-nowrap   '>
             <div data-aos-delay="100" data-aos-duration='600' data-aos="fade-right" className='lg:w-1/3 '>
                 <h1 className='text-4xl font-bold max-w-md ' >Take ideas from better to best</h1>
                 <p className='mt-2 mb-6 text-justify lg:max-w-sm'>Miro is your team's visual platform to connect, collaborate, and create — together.  </p>

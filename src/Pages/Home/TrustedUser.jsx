@@ -16,7 +16,9 @@ const TrustedUser = () => {
             <div className='flex items-center justify-around flex-wrap md:flex-nowrap gap-4  px-8 py-4'>
                 {
                     imageArray.map(item =>
-                        <img src={item} className='h-14 ' alt="" />
+                   <div className='h-16 w-2/5 md:w-full md:h-auto flex'>
+                         <img src={item} className='h-14 mx-auto ' alt="" />
+                   </div>
                     )
                 }
             </div>
